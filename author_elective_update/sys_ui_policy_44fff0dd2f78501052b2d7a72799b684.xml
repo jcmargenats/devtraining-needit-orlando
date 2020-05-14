@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_58872_needit_needit">u_what_needed=other^EQ<item display_value="Other" endquery="false" field="u_what_needed" goto="false" newquery="false" operator="=" or="false" value="other"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false/>
+        <script_true/>
+        <set_values/>
+        <short_description>NeedIt show or hide Other field</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 15:51:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>44fff0dd2f78501052b2d7a72799b684</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>NeedIt show or hide Other field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_policy_44fff0dd2f78501052b2d7a72799b684</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 16:05:41</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>7295d654db2bcc149df22f17d49619c8</instance_id>
+        <instance_name>dev102713</instance_name>
+        <name>sys_ui_policy_44fff0dd2f78501052b2d7a72799b684</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy"><sys_ui_policy action="INSERT_OR_UPDATE"><active>true</active><conditions table="x_58872_needit_needit">u_what_needed=other^EQ<item display_value="Other" endquery="false" field="u_what_needed" goto="false" newquery="false" operator="=" or="false" value="other"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></conditions><description/><global>true</global><inherit>false</inherit><isolate_script>true</isolate_script><model_id/><model_table/><on_load>true</on_load><order>100</order><reverse_if_false>true</reverse_if_false><run_scripts>true</run_scripts><script_false/><script_true/><set_values/><short_description>NeedIt show or hide Other field</short_description><sys_class_name>sys_ui_policy</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-14 15:51:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>44fff0dd2f78501052b2d7a72799b684</sys_id><sys_mod_count>3</sys_mod_count><sys_name>NeedIt show or hide Other field</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ui_policy_44fff0dd2f78501052b2d7a72799b684</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-14 16:05:41</sys_updated_on><table>x_58872_needit_needit</table><ui_type>10</ui_type><view/></sys_ui_policy></record_update>]]></payload>
+        <payload_hash>1048461843</payload_hash>
+        <record_name>NeedIt show or hide Other field</record_name>
+        <reverted_from/>
+        <source>8d50e8d52f38501052b2d7a72799b62e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 16:05:41</sys_created_on>
+        <sys_id>18e349512fb8501052b2d7a72799b6f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17213ef2cf30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 16:05:41</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>50e34951feb850105554b61be579f0f7</update_guid>
+        <update_guid_history>50e34951feb850105554b61be579f0f7:1048461843,76d2455129b8501031b33b995a6d9924:-1915989053,fa4249dd8b78501017a5f20a4415abab:-439900747,7e80459d26785010b4f43033ccc69be7:277249064</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-14 16:06:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>692d347fd9354004a6066e64643e3c90</sys_id>
+        <sys_metadata>44fff0dd2f78501052b2d7a72799b684</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt show or hide Other field</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">45007fcd0fa83200cd674f8ce1050ebc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_44fff0dd2f78501052b2d7a72799b684</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_44fff0dd2f78501052b2d7a72799b684">18e349512fb8501052b2d7a72799b6f7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-14 16:06:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
